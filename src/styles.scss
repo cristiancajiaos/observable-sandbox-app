@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+aside {
+  position: fixed;
+  width: 30vw;
+  height: 97vh;
+  padding: 1rem;
+}
+
+main {
+  position: fixed;
+  left:30vw;
+  width:70vw;
+  height: 97vh;
+  padding:1rem;
+}
