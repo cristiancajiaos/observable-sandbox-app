@@ -1,0 +1,20 @@
+<h1>Observable Sandbox App</h1>
+
+<hr />
+
+<div class="list-group">
+  <a href="#" routerLink="home" class="list-group-item list-group-item-action" [class.active]="route == '/home'">
+    <i class="fas fa-home fa-fw"></i> Home
+  </a>
+</div>
+
+<hr />
+
+<div class="list-group">
+  <a href="#" *ngFor="let snippet of snippets" [routerLink]="snippet.routerName"
+    class="list-group-item list-group-item-action" [class.active]="route == snippet.path">
+    Test
+  </a>
+</div>
+
+<hr />
